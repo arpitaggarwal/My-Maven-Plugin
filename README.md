@@ -7,15 +7,18 @@ mvn clean install
 mvn com.test:MyPlugin:my-goal
 ```
 
-By default, shorthand for maven plugin is allowed for plugins with groupIds of org.apache.maven.plugins or org.codehaus.mojo. 
+By default, shorthand for maven plugin is allowed for plugins with groupIds of **org.apache.maven.plugins** or **org.codehaus.mojo**. 
 
-Edit <pluginGroups> in settings.xml as follows:
 
- <pluginGroups>
+Edit **<pluginGroups>** in **settings.xml** as follows:
+
+``` 
+<pluginGroups>
         <pluginGroup>com.test</pluginGroup>
  </pluginGroups>
+```
  
-Now execute commands:
+Now you can use as:
 
 ```
 mvn clean install
