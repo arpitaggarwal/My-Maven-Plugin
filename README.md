@@ -15,7 +15,7 @@ Edit **<pluginGroups>** in **settings.xml** as follows:
 ``` 
 <pluginGroups>
         <pluginGroup>com.test</pluginGroup>
- </pluginGroups>
+</pluginGroups>
 ```
  
 Now you can use as:
